@@ -25,75 +25,31 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="20dp"
             android:gravity="center"
-            android:text="Live monitoring CCTV lalu lintas Gunungkidul"
+            android:text="Live monitoring CCTV Tugu Selamat Datang"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="Kapanewon Patuk"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cvDate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/text"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            app:cardCornerRadius="10dp"
-            app:cardElevation="5dp"
-            android:layout_alignParentRight="true">
-
-        </com.google.android.material.card.MaterialCardView>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
-
-            <ImageView
-                android:id="@+id/imgDate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_calendar_month_24" />
-
-            <TextView
-                android:id="@+id/tvDate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
-                android:layout_toEndOf="@id/imgDate"
-                android:layout_toRightOf="@id/imgDate"
-                android:text=" Senin, 02 Januari 2023"
-                android:textColor="@color/white"
-                android:textSize="12sp"
-                android:textStyle="bold" />
-
-        </RelativeLayout>
-
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="96dp"
-        android:text="Tugu Selamat Datang Gunungkidul"
-        android:textColor="@color/biru_tua"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
         android:id="@+id/videocctv"
@@ -101,7 +57,7 @@
         android:layout_height="wrap_content"
         app:videoId="0vRfao36LlE"
         app:autoPlay="true"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
