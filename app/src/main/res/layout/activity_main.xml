@@ -380,6 +380,586 @@
                     android:src="@drawable/bunderanpln" />
 
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvSimpangamigo"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:text="Simpang 3 Amigo"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Wonosari"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/simpangamigo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvJlPlayen"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:text="Jalan Nasional Playen"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Playen"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/jalannasionalplayen" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvJlManthous"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_weight="1"
+                        android:text="Jalan Manthous Playen"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="80dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Playen"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/simpangamigo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvSimpangplayen"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:text="Simpang 3 Playen"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Playen"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/simpang3playen" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvSimpanggading"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:text="Simpang Gading"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Playen"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/simpanggading" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvSimpangpatuk"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:text="Simpang 4 Patuk"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Patuk"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/simpang4patuk" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvJlBaron"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:text="Jalan Baron Mulo"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Wonosari"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/jalanbaronmulo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvSimpangtrowono"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:text="Simpang 4 Trowono"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Paliyan"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/simpang4trowono" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvPantaiBaron"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:text="Pantai Baron"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Tanjungsari"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pantaibaron" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvPantaiKukup"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:text="pantai Kukup"
+                        android:textColor="@color/biru_tua"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_weight="1"
+                        android:text="Kapanewon Tanjungsari"
+                        android:textColor="@color/biru_tua" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/circle_radius"
+                        android:padding="10dp"
+                        android:src="@drawable/arrow"
+                        app:tint="@color/biru_tua" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="135dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pantaikukup" />
+
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

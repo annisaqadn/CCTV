@@ -13,8 +13,18 @@
         <entry key="app/src/main/res/layout/activity_aaw.xml" value="0.4535664876302083" />
         <entry key="app/src/main/res/layout/activity_bpln.xml" value="0.24909420289855072" />
         <entry key="app/src/main/res/layout/activity_bs.xml" value="0.2864583333333333" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2912948608398438" />
+        <entry key="app/src/main/res/layout/activity_jbm.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_jmp.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_jnp.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2616534740545295" />
+        <entry key="app/src/main/res/layout/activity_pb.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_pk.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_sa.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_sg.xml" value="0.27239583333333334" />
+        <entry key="app/src/main/res/layout/activity_sp.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_spatuk.xml" value="0.2798913043478261" />
         <entry key="app/src/main/res/layout/activity_srsud.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_st.xml" value="0.27239583333333334" />
         <entry key="app/src/main/res/layout/activity_tsd.xml" value="0.1" />
       </map>
     </option>

@@ -13,7 +13,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
-    CardView cvTuguselamatdatang, cvBunderansiyono, cvAlunalun, cvSimpangrsud, cvBunderanPLN;
+    CardView cvTuguselamatdatang, cvBunderansiyono, cvAlunalun, cvSimpangrsud, cvBunderanPLN, cvSimpangamigo, cvJlNPlayen, cvJlManthous, cvSimpangplayen, cvSimpanggading, cvSimpangpatuk, cvJlBaronmulo, cvSimpangtrowono, cvPantaibaron, cvPantaikukup;
     TextView tvini;
     String hariIni;
     @Override
@@ -25,25 +25,17 @@ public class MainActivity extends AppCompatActivity {
         cvAlunalun = findViewById(R.id.cvAlunalun);
         cvSimpangrsud = findViewById(R.id.cvSimpangrsud);
         cvBunderanPLN = findViewById(R.id.cvBunderanPLN);
+        cvSimpangamigo = findViewById(R.id.cvSimpangamigo);
+        cvJlNPlayen = findViewById(R.id.cvJlPlayen);
+        cvJlManthous = findViewById(R.id.cvJlManthous);
+        cvSimpangplayen = findViewById(R.id.cvSimpangplayen);
+        cvSimpanggading = findViewById(R.id.cvSimpanggading);
+        cvSimpangpatuk = findViewById(R.id.cvSimpangpatuk);
+        cvJlBaronmulo = findViewById(R.id.cvJlBaron);
+        cvSimpangtrowono = findViewById(R.id.cvSimpangtrowono);
+        cvPantaibaron = findViewById(R.id.cvPantaiBaron);
+        cvPantaikukup = findViewById(R.id.cvPantaiKukup);
         tvini = findViewById(R.id.tvDate);
-
-        Date dateNow = Calendar.getInstance().getTime();
-        hariIni = (String) DateFormat.format("EEEE", dateNow);
-        if (hariIni.equalsIgnoreCase("sunday")) {
-            hariIni = "Minggu";
-        } else if (hariIni.equalsIgnoreCase("monday")) {
-            hariIni = "Senin";
-        } else if (hariIni.equalsIgnoreCase("tuesday")) {
-            hariIni = "Selasa";
-        } else if (hariIni.equalsIgnoreCase("wednesday")) {
-            hariIni = "Rabu";
-        } else if (hariIni.equalsIgnoreCase("thursday")) {
-            hariIni = "Kamis";
-        } else if (hariIni.equalsIgnoreCase("friday")) {
-            hariIni = "Jumat";
-        } else if (hariIni.equalsIgnoreCase("saturday")) {
-            hariIni = "Sabtu";
-        }
         getToday();
 
         cvTuguselamatdatang.setOnClickListener(new View.OnClickListener() {
@@ -81,42 +73,85 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        cvSimpangamigo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, SA.class);
+                startActivity(i);
+            }
+        });
+        cvJlNPlayen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, JNP.class);
+                startActivity(i);
+            }
+        });
+        cvJlManthous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, JMP.class);
+                startActivity(i);
+            }
+        });
+        cvSimpangplayen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, SP.class);
+                startActivity(i);
+            }
+        });
+        cvSimpanggading.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, SG.class);
+                startActivity(i);
+            }
+        });
+        cvSimpangpatuk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, SPatuk.class);
+                startActivity(i);
+            }
+        });
+        cvJlBaronmulo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, JBM.class);
+                startActivity(i);
+            }
+        });
+        cvSimpangtrowono.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, ST.class);
+                startActivity(i);
+            }
+        });
+        cvPantaibaron.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, PB.class);
+                startActivity(i);
+            }
+        });
+        cvPantaikukup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, PK.class);
+                startActivity(i);
+            }
+        });
     }
     //membuat parameter untuk fungsi Date
     private void getToday() {
         Date date = Calendar.getInstance().getTime();
-        String tanggal = (String) DateFormat.format("d", date);
-        String bulanke = (String) DateFormat.format("M", date);
+        String hari = (String) DateFormat.format("EEEE", date);
+        String tanggal = (String) DateFormat.format("dd", date);
+        String bulan = (String) DateFormat.format("MMMM", date);
         String tahun = (String) DateFormat.format("yyyy", date);
-
-        int month = Integer.parseInt(bulanke);
-        String bulan = null;
-        if (month == 1) {
-            bulan = "Januari";
-        } else if (month == 2) {
-            bulan = "Februari";
-        } else if (month == 3) {
-            bulan = "Maret";
-        } else if (month == 4) {
-            bulan = "April";
-        } else if (month == 5) {
-            bulan = "Mei";
-        } else if (month == 6) {
-            bulan = "Juni";
-        } else if (month == 7) {
-            bulan = "Juli";
-        } else if (month == 8) {
-            bulan = "Agustus";
-        } else if (month == 9) {
-            bulan = "September";
-        } else if (month == 10) {
-            bulan = "Oktober";
-        } else if (month == 11) {
-            bulan = "November";
-        } else if (month == 12) {
-            bulan = "Desember";
-        }
-        String formatFix = hariIni + ", " + tanggal + " " + bulan + " " + tahun;
+        String formatFix = hari + ", " + tanggal + " " + bulan + " " + tahun;
         tvini.setText(formatFix);
     }
 }
